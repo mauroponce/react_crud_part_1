@@ -1,0 +1,26 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Ned Flanders",
+      "email": "ned@simpsons.com",
+      "address": "744 Evergreen Terrace, Springfield",
+      "active": false
+    },
+    {
+      "id": 2,
+      "name": "Emmett Brown",
+      "email": "doc@backtothefuture.com",
+      "address": "1640 Riverside Drive, Hill Valley, CA",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Sirius Black",
+      "email": "sirius@harrypotter.com",
+      "address": "12 Grimmauld Place, London, UK",
+      "phone": "555-888-666",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+yarn global add json-server
+json-server --watch db.json --port 3001
+
+http://localhost:3001/employees/?_page=2&_limit=2
+
+yarn add react-modal
+
+https://medium.com/@sahilkkrazy/fetch-vs-axios-http-request-c9afa43f804e
+yarn add axios
+
+Set a different key to create new modal components instances,
+so it invokes constructor with new props.
+In Add modal, re-create the modal every time is opened. As employee prop is not provided,
+constructor is called and default state is applied.
+In Edit modal, re-create the modal every time a new employee is passed as prop,
+so it calls constructor with new employee prop every time.
+https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#recommendation-fully-uncontrolled-component-with-a-key
